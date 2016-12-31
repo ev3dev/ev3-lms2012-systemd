@@ -1,0 +1,16 @@
+Source: ev3-lms2012-systemd
+Priority: optional
+Maintainer: David Lechner <david@lechnology.com>
+Build-Depends: debhelper (>= 8.0.0), dh-systemd (>= 1.5)
+Standards-Version: 3.9.6
+Section: embedded
+Homepage: http://www.ev3dev.org
+Vcs-Git: git://github.com/ev3dev/ev3-lms2012-systemd.git
+Vcs-Browser: https://github.com/ev3dev/ev3-lms2012-systemd
+
+Package: ev3-lms2012-systemd
+Architecture: armel
+Depends: ${misc:Depends}
+Description: Systemd unit files and udev rules for lms2012-compat on EV3.
+ This package is only useful for LEGO MINDSTORMS EV3 running an ev3dev kernel
+ with lms2012 drivers.

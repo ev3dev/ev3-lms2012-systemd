@@ -1,0 +1,11 @@
+# This file is part of the ev3-lms2012-systemd package
+
+# Start lms2012 line discipline for UARTs
+KERNEL=="ttyS1", ACTION=="add", TAG+="systemd", \
+    ENV{SYSTEMD_WANTS}="ev3-lms2012-uart@ttyS1.service"
+KERNEL=="ttyS0", ACTION=="add", TAG+="systemd", \
+    ENV{SYSTEMD_WANTS}="ev3-lms2012-uart@ttyS0.service"
+KERNEL=="ttySU1", ACTION=="add", TAG+="systemd", \
+    ENV{SYSTEMD_WANTS}="ev3-lms2012-uart@ttySU1.service"
+KERNEL=="ttySU0", ACTION=="add", TAG+="systemd", \
+    ENV{SYSTEMD_WANTS}="ev3-lms2012-uart@ttySU0.service"

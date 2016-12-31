@@ -1,0 +1,5 @@
+ev3-lms2012-systemd (1.0.0) stable; urgency=medium
+
+  * Initial release.
+
+ -- David Lechner <david@lechnology.com>  Sat, 31 Dec 2016 17:16:31 -0600
