@@ -7,6 +7,3 @@ BindsTo=dev-%i
 [Service]
 Type=forking
 ExecStart=/usr/sbin/ldattach 27 /dev/%I
-
-[Install]
-WantedBy=sysinit.target
