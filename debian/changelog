@@ -1,3 +1,9 @@
+ev3-lms2012-systemd (1.0.1) stable; urgency=medium
+
+  * Remove [Install] section from ev3-lms2012-uart@.service
+
+ -- David Lechner <david@lechnology.com>  Sat, 31 Dec 2016 17:49:57 -0600
+
 ev3-lms2012-systemd (1.0.0) stable; urgency=medium
 
   * Initial release.
